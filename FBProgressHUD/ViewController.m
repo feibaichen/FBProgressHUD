@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FBProgressHUD.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    FBProgressHUD *fb = [[FBProgressHUD alloc] init];
+    //[fb showFBGifHUD];
+    
+    //[NSThread sleepForTimeInterval:3];
+    
+    //[fb hideFBGifHUDwithDlayTime:5];
+    
+    
+    //[fb showFBNormalTextHUD:@"登陆失败"];
+    
+    //[fb hideFBNormalTextHUDwithDlayTime:3];
+    
+    
+    [fb showFBNormalTextHUD:@"登陆成功"];
+    
+    [fb hideFBNormalTextHUDwithDlayTime:3];
 }
 
 

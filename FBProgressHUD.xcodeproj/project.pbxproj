@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -204,25 +204,19 @@
 				TargetAttributes = {
 					22342E1120ECCAAE00CA7F24 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = AZWK98U2MN;
-						ProvisioningStyle = Automatic;
 					};
 					22342E2920ECCAB300CA7F24 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = AZWK98U2MN;
-						ProvisioningStyle = Automatic;
 						TestTargetID = 22342E1120ECCAAE00CA7F24;
 					};
 					22342E3420ECCAB300CA7F24 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = AZWK98U2MN;
-						ProvisioningStyle = Automatic;
 						TestTargetID = 22342E1120ECCAAE00CA7F24;
 					};
 				};
 			};
 			buildConfigurationList = 22342E0D20ECCAAE00CA7F24 /* Build configuration list for PBXProject "FBProgressHUD" */;
-			compatibilityVersion = "Xcode 6.3";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -448,7 +442,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUD/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +459,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUD/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +476,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +495,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,7 +513,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUDUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,7 +531,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = FBProgressHUDUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.feibaichen.FBProgressHUDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
